@@ -48,9 +48,10 @@
 			</list>
 		</property>
 		
-		<!-- 즉, 주업무클래스의 설계도, 주업무클래스가 implements 하는 interfaces, Proxy 클래스를 
-		인자로 넘겨주면 주업무를 따라하는 Proxy 가 만들어진다. !!!  이렇게하면 proxy.주업무메소드() 가 가능해지는데
-		(add, sub, multi, div) 이 메소드들 시작과 끝에 proxy클래스의 invoke() 메소드에서 설정해뒀던 보조업무가 함께 수행된다.-->
+		<!-- 즉, 1.주업무클래스의 설계도, 2.주업무클래스가 implements 하는 interfaces, 3.Aspect 클래스 
+		이 셋을 인자로 넘겨주면 주업무를 따라하는 proxy 가 만들어진다.  
+		이렇게하면 proxy.주업무메소드() 가 가능해지는데(add, sub, multi, div) 
+		이 메소드들 시작과 끝에 aspect클래스의 invoke() 메소드에서 설정해뒀던 보조업무가 함께 수행된다.-->
 		 
 	</bean>
 	
