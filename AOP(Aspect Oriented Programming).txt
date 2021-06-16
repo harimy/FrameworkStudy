@@ -33,7 +33,7 @@
     proxy 내부에서 보조 업무를 실행한 후, 주 업무를 호출하도록 하면
     외부에서 볼 때 업무를 실행하는 것과 같은 결과가 나오도록 할 수 있다.
   - joinpoint
-    proxy 내부에서 주 업물르 호출하는 경우에 특정 지점에만 호출되도록 할 수 있다.
+    proxy 내부에서 주 업무를 호출하는 경우에 특정 지점에만 호출되도록 할 수 있다.
   - weaving
     advice 를 주 업무에 적용하는 과정을 부르는 명칭.
   - aspect
@@ -84,7 +84,7 @@
   - 경로1 : C:\s-f-3.0.2-with-docs\dist
     · 파일1 : org.springframework.core-3.0.2.RELEASE.jar
   - 경로 2 : C:\s-f-3.0.2-dependencies\org.apache.commons\com.springsource.org.apache.commons.logging\1.1.1
-    · 파일2 : org.springframework.core-3.0.2.RELEASE.jar
+    · 파일2 : com.springsource.org.apache.commons.logging-1.1.1.jar
 
 ○ 물리적 파일 구성
   1. Calculator.java		→ 인터페이스
@@ -105,7 +105,7 @@
   - 경로1 : C:\s-f-3.0.2-with-docs\dist
     · 파일1 : org.springframework.core-3.0.2.RELEASE.jar
   - 경로 2 : C:\s-f-3.0.2-dependencies\org.apache.commons\com.springsource.org.apache.commons.logging\1.1.1
-    · 파일2 : org.springframework.core-3.0.2.RELEASE.jar
+    · 파일2 : com.springsource.org.apache.commons.logging-1.1.1.jar
 
 ○ 물리적 파일 구성
   1. Calculator.java		→ 인터페이스(기본 소스코드 그대로 활용)
@@ -136,7 +136,7 @@
     · 파일6 : org.springframework.aop-3.0.2.RELEASE.jar
 	      (IoC/DI 실습 항목과 비교하여 추가되는 항목)
   - 경로 2 : C:\s-f-3.0.2-dependencies\org.apache.commons\com.springsource.org.apache.commons.logging\1.1.1
-    · 파일7 : org.springframework.core-3.0.2.RELEASE.jar
+    · 파일7 : com.springsource.org.apache.commons.logging-1.1.1.jar
   - 경로 3 : - 경로 2 : C:\s-f-3.0.2-dependencies\org.aopalliance\com.springsource.org.aopalliance\1.0.0
     · 파일8 : com.springsource.org.aopalliance-1.0.0.jar
 
@@ -181,7 +181,7 @@
     · 파일6 : org.springframework.aop-3.0.2.RELEASE.jar
 	      (IoC/DI 실습 항목과 비교하여 추가되는 항목)
   - 경로 2 : C:\s-f-3.0.2-dependencies\org.apache.commons\com.springsource.org.apache.commons.logging\1.1.1
-    · 파일7 : org.springframework.core-3.0.2.RELEASE.jar
+    · 파일7 : com.springsource.org.apache.commons.logging-1.1.1.jar
   - 경로 3 : - 경로 2 : C:\s-f-3.0.2-dependencies\org.aopalliance\com.springsource.org.aopalliance\1.0.0
     · 파일8 : com.springsource.org.aopalliance-1.0.0.jar
 
@@ -227,7 +227,7 @@
     · 파일6 : org.springframework.aop-3.0.2.RELEASE.jar
 	      (IoC/DI 실습 항목과 비교하여 추가되는 항목)
   - 경로 2 : C:\s-f-3.0.2-dependencies\org.apache.commons\com.springsource.org.apache.commons.logging\1.1.1
-    · 파일7 : org.springframework.core-3.0.2.RELEASE.jar
+    · 파일7 : com.springsource.org.apache.commons.logging-1.1.1.jar
   - 경로 3 : - 경로 2 : C:\s-f-3.0.2-dependencies\org.aopalliance\com.springsource.org.aopalliance\1.0.0
     · 파일8 : com.springsource.org.aopalliance-1.0.0.jar
 
